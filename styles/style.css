@@ -125,14 +125,17 @@ padding:40px;
     font-size: 18px;
     font-weight: 400;
     opacity: 0.9;
+    margin-left: 15px;
 }
 #midnight-button{
 width: 103px;
 height: 24px;
-color: rgb(255, 255, 255);
+color: rgb(187, 235, 133);
 font-family: Inter;
 font-size: 20px;
 font-weight: 700;
+margin-right: 445px;
+margin-top: 20px;
 }
 .right-side-content{
 width: 50%;
@@ -143,4 +146,48 @@ align-items: center;
 .right-side-content img{
     width: 349.16px;
     height: 464.65px;
+}
+/* <<<<<<<<schedule-section start>>>>>>>>>>> */
+.schedule-container{
+    max-width: 1320px;
+    margin: 0 auto;
+    margin-top: 20px;
+    min-height: 482px;
+    border-radius: 10px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+    text-align: center;
+    padding-top: 100px;
+    margin-bottom: 20px;
+
+}
+.schedule-container span{
+color: red;
+font-weight: 600;
+font-family: Inter;
+font-size: 28px;
+
+}
+.schedule-container h5{
+margin-top: 15px;
+font-weight: 600;
+font-family: Inter;
+font-size: 28px;
+}
+.btn-join-now{
+border-radius: 8px;
+background: rgb(255, 0, 0);
+margin-top: 60px;
+color: white;
+width: 100px;
+height: 30px;
+border: none;
+}
+/* <<<<<<<<<offer-section>>>>>>>>> */
+.offer-container{
+    max-width: 1320px;
+    margin: 0 auto;
+    margin-top: 20px;
+    min-height: 482px;
+    border-radius: 10px;
+    border: 2px solid red;
 }
